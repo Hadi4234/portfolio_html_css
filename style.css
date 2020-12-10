@@ -1,0 +1,82 @@
+
+.navbar {
+  background: #000; }
+  .navbar .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important; }
+
+    .carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url("img/carousol-2.jpg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("img/carousol-3.jpg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("img/carousol-1.jpg");
+  background-size: cover; }
+  .navbar-brand{
+    color:#22F2AA;
+	font-size: 25px;
+	font-weight: 500;
+	text-shadow: 0 0 5px #22F2AA;
+	
+  }
+   .active .nav-link {
+  box-shadow: 0 0 30px #22F2AA;
+	background: #22F2AA;
+  color: #091921;
+  border-radius: 10px;
+	
+ }
+ 
+
+
+#page-header {
+    background: url("img/web-development-web-design-mobile-app-development-digital-marketingservices-cloudi5.webp");
+    background-size: cover;
+    height: 200px;
+    padding-top: 50px;
+    background-attachment: fixed; }
+#page-header1 {
+        background: url("img/project.jpg");
+        
+        height: 300px;
+        padding-top: 50px;
+        background-attachment: fixed; }
+    @media (max-width: 991px) {
+#home-getstarted {
+    min-height: 350px; } }
+     
+#page-header-blog {
+      background:#212121;
+      background-size: cover;
+      
+      height: 200px;
+      padding-top: 50px;
+      background-attachment: fixed; } 
+  
+
+@media (max-width: 575px) {
+  .carousel-caption h2 {
+    font-size: 36px; }
+  .carousel-item .pb-5 {
+    padding-bottom: 0 !important; }
+  #home-getstarted h2 {
+    font-size: 36px;
+    margin: 20px 0; } }
+
+@media (max-width: 480px) {
+  #home-getstarted {
+    min-height: 450px; }
+    #home-getstarted h2 {
+      font-size: 36px !important;
+      margin: 15px 0; } }
+
+
